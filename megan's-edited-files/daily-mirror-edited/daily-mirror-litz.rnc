@@ -1,0 +1,12 @@
+start = root
+root = element root {topPage,group*}
+topPage = element topPage {company, title}
+group = element group { num, bold, 
+image*, para?}
+num = attribute num {xsd:integer}
+company = element company {text}
+title = element title {text}
+bold = element bold {text}
+image = element image {src, text}
+src = attribute src {"ship.png" | "capt.png" | "rescues.png" }
+para = element para {text}
