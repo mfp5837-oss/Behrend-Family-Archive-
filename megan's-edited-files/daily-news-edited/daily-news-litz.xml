@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <company> DAILY NEWS,</company>
+    <date> New York, Monday, April 29, 1929</date>
+
+    <subTitle> Safe After Days of Peril</subTitle>
+    
+    <image src= "people.png"/>
+
+    <left><title> PERIL-WORN, 10 HURRICANE HEROES LAND</title>
+    <author> By ARTHUR MEFFORD</author>
+    <para> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane, ten
+        survivors of the foundered four - masted coal schooner James E. Coburn were landed yesterday
+        at Tebo basin, Brooklyn, from the shining decks of the $1,000,000 yacht Amidi. Gaunt and
+        bruised and swollen from eight days on tempestuous seas in an open boat, the survivors of
+        the Coburn had to be lifted from the palatial yacht. One Cook William Sargent, who dieo in
+        the boat while seas buffeted them, had been buried at sea. of the living ten, Engineer
+        William Milliken, carried from the Amidi to Marine hospital, at Clif-ton, S. I., where he is
+        in a serious condition from exposure. </para>
+
+    <subHead> Leak, Then Hurricane </subHead>
+    <para>
+        <ln num="1">Capt. Jose Pereira, the suffering engineer and Jose Madeors, owner, were the three white
+            men aboard the coal schooner. The skipper told a graphic tale of the terrible ordeal
+            before and after the sinking of the Coburn.</ln>
+
+        <ln num="2">The schooner began shipping water as soon as Cape Henry, Va., was passed in the voyage
+            from Baltimore to Bermuda with coal. There came one of the worst hurricanes Pereira, who
+            has sailed from New Bedford for thirty years, ever saw. The heavily laden schooner was
+            swamped beyond hope of pumping. Both captain and owner ordered the men to the single
+            yawl used as lifeboat.</ln>
+
+        <ln num="3"> With a jury-rig set, the eleven men in the boat thought they had saved themselves just
+            in time, for the prow of the Coburn reared and the vessel settled before they were 500
+            yards away.</ln>
+
+        <ln num="4">With a keg of biscuit and a keg of water, the eleven began their suffering. Once they
+            drifted within sight of the shores of Bermuda, only to be blown back.</ln>
+
+        <ln num="5">On April 26, without water for two days and food for four, the ten men—Cook Sargent
+            having died—sighted the Amidi, yacht built at Kiel, Germany, and making its maiden
+            voyage here for delivery to Ernest R. Behrend.</ln>
+
+<image src= "boat.png"/> 
+
+        <ln num="6">Capt. Sidney S. MacLaughlin from the decks of the Amidi, saw the crude distress signal
+            from the small boat—an American flag flown upside down from an oar. The rescued men were
+            so weak they could not lift their heads as rescuers approached. Twenty members of the
+            yacht crew were forced to cut the salt-coated clothes and sea boots from the swollen
+            limbs of the rescued. None could speak for hours.</ln>
+
+        <ln num="7">Behrend, owner of the yacht, with his wife, Mrs. Mary Brownell Behrend, and daughter,
+            Harriett Natalie Mae as the craft steamed into quarantine yesterday. Both rescued and
+            rescuers reported that the men were adrift in their leaky boat during one of the worst
+            hurricanes the Atlantic has seen in years.</ln>
+    </para></left>
+
+    <right><title> The NEWS in Tabloid </title>
+    <subHead> NEW YORK AND VICINITY </subHead>
+    <para> The story of ten men adrift eight days as a hurricane battered their open boat was told
+        when the men rescued by the yacht Amidi were landed. </para></right>
+
+<!-- there is a drawing on the bottom right of the page with a bird and a cloud -->
+
+</root>
