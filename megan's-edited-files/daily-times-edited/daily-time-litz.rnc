@@ -1,0 +1,24 @@
+start = root
+root = element root {top, leftSide, middle, rightSide}
+
+top = element top {company, (title | place | date)*}
+company = element company {text}
+date = element date {text}
+title = element title {text}
+place = element place {text}
+
+leftSide = element leftSide {title, (subTitle*|para | tiny )*}
+subTitle = element subTitle {text}
+para = element para {mixed {bold*}}
+bold = element bold {text}
+tiny = element tiny {text}
+
+
+middle = element middle {image}
+image = element image {src}
+src = attribute src {"lighthouse.png" }
+
+
+rightSide = element rightSide { title, subTitle*, (author* | para* | date*)* }
+
+author = element author {text}
