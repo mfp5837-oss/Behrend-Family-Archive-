@@ -1,0 +1,19 @@
+start = root
+root = element root {company,date, subTitle,image,left,right}
+
+company = element company {text}
+date = element date {text}
+subTitle = element subTitle {text}
+image = element image {src}
+src = attribute src {"people.png" | "boat.png"}
+
+
+left = element left { title, author , mixed{subHead | para}*}
+num = attribute num {xsd:integer}
+title = element title {text}
+author = element author {text}
+para = element para {mixed{ln* }}
+ln = element ln {num,mixed{image?}}
+subHead = element subHead {text}
+
+right = element right { title, subHead, para}

@@ -1,0 +1,14 @@
+start = root
+root = element root {company,date,title,subTitle,author,(para|ln)*}
+
+company = element company {text}
+date = element date {text}
+subTitle = element subTitle {text}
+
+
+title = element title {text}
+author = element author {text}
+para = element para {text}
+ln = element ln {text}
+subHead = element subHead {text}
+
