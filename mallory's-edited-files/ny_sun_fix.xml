@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ny_sun.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <topPage>
+        <company>THE NEW YORK SUN, Monday, April, 29, 1929</company>
+        <title>10 SEA VICTIMS TELL OF RESCUE</title>
+        <title>Calm They Prayed For Falls as Succor Draws Near.</title>
+        <subheading>8 DAYS WITHOUT FOOD</subheading>
+    </topPage>
+    
+    <group num="1">
+        <bold>Death and Madness Add to Plight of Coburn's Crew.</bold>
+        <image src="ny_sun_death-and-madness.png"></image>
+        <para>The tale of ten living men and corpse adrift for eight days on the high seas in the thundering gale with nothing save five Bibles and three prayer books
+            was recounted yesterday by Jose J. Pereira, master of the four-masted schooner, James E. Coburn, which went down on April 17 off Bermuda, after her seams 
+            had opened during a blow and the seas had filled her forward hold. Capt. Pereia told his story coming up the bay from Quarantie on the yacht Amida,
+            which had sighted his little twenty-five-foot yawl, after the ten men, three white and seven colored, had given up hope in everything except prayers and miracles.
+            Two days in tge palatial quarters of the yacht, with warm beds, food and hot drink had put a little life back into the rescued crew.</para>
+    </group>
+    
+    <group num="2">
+        <bold>One Still Abed.</bold>
+       <image src="ny_sun_one-still.png"></image>
+            <para>All except one were out on deck,but all refused to comment upon their adventures. The man still in his bed was William Milliken. the engineer, 
+                whose feet had swollen due to their long soak in salt water and who was later taken to the Marine Hospital. 
+                While the crew sat silently and a trifle sullenly in a close group their skipper described their heroic fight agsinst the Atlantic, 
+                breaking into his account now and then with praises for Capt. Sidney McLaughlin of the Amida, his rescuer.
+                The Bibles and prayer books he said, was all that kept up thebmorale of his men. The misfortunes aboard the James E. Coburn began on April 14, her master declared.
+                On that day she ran into a heavy gale, and although nothing above deck was damaged her seams sprung and she began to leak. <!-- A gale is a strong, sustained wind, typically ranging from 34 to 47 knots or 39-54 mph -->
+                This was a complete surprise, because the ship had been overhauled in February at Perth Amboy, a new keel had been fitted on, and she had received a firt-class certificate.</para>
+    </group>
+    
+    <group num="3">
+        <bold>Pumps Chocked</bold>
+        <image src="ny_sun_pumps.png"></image>
+        <para>From the 14th on the gale continued. The crew was ordered to the pumps, and a gasoline pump was put into operation. <!-- Schooner is a sailing vessel with at least two masts, both rigged with fore-and-aft sails, where the foremast is typically shorter than the main mast -->
+            April 16 found the schooner with ten feet of water in her foward hold, stagginging along with her head down under her jib and mizzen. <!-- Jib is the triangular sail at the front of the boat and a mizzen is a smaller sail on the aft(rear) mast of a two-masted vessel -->
+            Then the pumps became chocked with coal dust and dirt in the bilges, and were unable to hold their own with the rising water.
+            That day the wind raged at sixty-five miles an hour. It was a cannon gale which whipped up atremendous sea.
+            On the morning of the 17th the water in the hold had risen to fifteen feet and Capt. Pereira knew that his ship could
+            could stay afloat only a few hours longer. With the gale still blowing, he ordered his men to the boat.
+            They stowed hard tack, canned meat and bread in its lockers, took two beakers of water and about noon swung it over the side and succeeded in pushing off.</para> </group>
+    
+    <group num="4">
+        <bold>Eleven Men Adrift.</bold>
+        <image src="ny_sun_eleven.png"></image>
+        <para>For some two hours, with the yawl's stern to the seas, they watched their schooner. She was still under hir jib and mizzen, and at 2:30 P.M. she slowly settled and went down bow first.
+            After that there weee eleven men alone on the sea. They were alone forbeight monotonous days and nights.
+            The entire time the gale cracked around them. The waves washed into thwie tiny craft. They bailed, pulled at the 
+            the three oars which had not been carried away, and slept. As the days wore on William Sargent, 60 years old, the cook, 
+            slept more and more. On the seventh morning he failed to awake, and they found that he had died.
+            He was left in the bottom of the yawl, a terrible reminder to his living companions, and was buried <!-- A yawl is a two-masted fore-and-aft-rigged sailboat with the mizzenmast stepped far aft so that the mizzen boom overhangs the stern so i -->
+            after the rescue from the deck of the Amida. So much water was shipped by the small boat that all of the hard tack
+            and bread became soaked and could not be eaten. The canned goods lasted four days and the water was soon gone.
+            All that was left was cigarettes and a few matches. Thee were smoked sparingly.</para>
+    </group>
+    
+    <group num="5">
+        <bold>Brought Their Bibles.</bold>
+        <image src="ny_sun_bibles.png"></image>
+        <para>Although the men had not been permitted to take any baggage, they insisted on bringing books from the sinking schooner.
+            And during the days in the open boat the literate members of the crew read from these.
+            The impassioned sentences of King James's time describing. As the gale shrinked, the seas pounded, and the yawl swung
+            up and down monotonously,these were read over and over, ans the crew prayed. At night when the Bibles could not be read these prayers were continuous.
+            At odd intervals of the night, the captain said, there would be a sudden call across the sea, "Oh, Lord save us. Help us or perish."
+            At one time they were eighty-five miles from Bermuda. But the wind shifted and blew them off again.
+            At another another they sighted a vessel, but their flares would not work.
+            It was too stormy for the ship to pick them up anyway. Then Milliken went mad. 
+            He babbled helplessly, thought he was in port and demanded his pay. Capt. Pereira gave him a check for $10 and he became quite.</para>
+    </group>
+    
+    <group num="6">
+        <bold>A Quiet Sea at Last.</bold>
+        <image src="ny_sun_quiet-sea.png"></image>
+        <para>In this way they floated until thr Amida was sighted. And her sighting and the subsequent rescue was 
+            in the eys of the crew the miracle for which they had payed. Although the storm had beaten unceasingly for 
+            eight days, on the morning of the 24th it was clear. They signaled with an inverted flag on an oar. 
+            The yacht drew alongside and the sea was smooth as glass. They were helped to her deck, and a few hours latern
+            the gale began again. Next mprning saw a hurrican. The clear weather had lasted only long enough for the rescue.
+            With the exception of Milliken, the men will be sent to Baltimpre today. The money paid Capt. McLaughlin
+            for stories of the rescue will be divided among them and they will receive the proceeds of a painting of the event by Claus Bergen,
+            a marine painter who was aboard the yacht. Altgough when rescued their skin had been shriveled by 
+            the salt water so that they looked 100 years old, all are reported to be a little worse for the adventure.</para>
+    </group>
+</root>
