@@ -19,6 +19,6 @@ image = element image {src}
 src = attribute src {"lighthouse.png" }
 
 
-rightSide = element rightSide { title, subTitle*, (author* | para* | date*)* }
+rightSide = element rightSide { (title, subTitle, author?, para+,  date*)* }
 
 author = element author {text}
