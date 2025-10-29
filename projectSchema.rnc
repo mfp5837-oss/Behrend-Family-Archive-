@@ -1,0 +1,50 @@
+start = root 
+root = element root { metadata, body}
+metadata = element metadata {docInfo, docEncoding}
+
+docInfo = element docInfo {genre, pubDate, author}
+genre = element genre {"newspaper" | "telegram" }
+pubDate = element pubDate {when, empty}
+author = element author {"Unknown" | text}
+
+docEncoding = element docEncoding { editDate, editor}
+editDate = element editDate {when, empty}
+editor = element editor {"Mallory Pentycofe" | "Tessa Daley" | "Megan Litz" }
+
+body = element body { topPage, \div+ }
+topPage = element topPage {company, (transmitInfo+ | heading+ )}
+# For newspaper articles, you have heading at the top. 
+# For telegrams, you have transmitInfo at the top. SO you get either of these options, but not both.
+
+# Newspaper article encoding
+company = element company {text, date?}
+date = element date {when, text}
+heading = element heading {level, text}
+level = attribute level {xsd:integer }
+\div = element div {form?, heading*, (image | p)+}
+# This @form attribute is defined for the telegram encoding. Only use it for that.
+image = element image {src, alt, caption?}
+src = attribute src {xsd:anyURI}
+alt = attribute alt {text}
+# This is YOUR description of the image
+caption = attribute caption {text }
+# This is an official newspaper printed caption
+p = element p {mixed{ (name | place | date)+ } }
+name = element name {type, text }
+type = attribute type {"person" | "boat" | "object" | "event" }
+place = element place {lat?, long?, text }
+lat = attribute lat {xsd:decimal}
+long = attribute long {xsd:decimal}
+# lat and long are for geo-cooding
+
+when = attribute when {xsd:date}
+
+# Telegram Encoding
+transmitInfo = element transmitInfo {fw, mixed{(time | place | date | sender | addressee)+, fw}}
+fw = element fw {text}
+# fw is taken from the TEI where it just means standard printed stuff at the top of a form
+form = attribute form {"message"}
+time = element time {tod, text}
+tod = attribute tod {"AM" | "PM" }
+sender = element sender {text }
+addressee = element addressee { mixed{name* }}

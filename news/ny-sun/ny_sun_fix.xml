@@ -2,14 +2,27 @@
 
 <?xml-model href="ny_sun.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <topPage>
-        <company>THE NEW YORK SUN, Monday, April, 29, 1929</company>
+    <metadata>
+        <docInfo>
+            <genre>newspaper</genre>
+            <pubDate when="1929-04-29"/>
+            <author>Unknown</author>
+        </docInfo>
+           <docEncoding> 
+               <editDate when="2025-10-29"/>
+               <editor>Mallory Pentycofe</editor>
+            </docEncoding>
+    </metadata>
+  <body>  
+      <topPage>
+          <company>THE NEW YORK SUN, <date>Monday, April, 29, 1929</date></company>
+          
         <title>10 SEA VICTIMS TELL OF RESCUE</title>
         <title>Calm They Prayed For Falls as Succor Draws Near.</title>
         <subheading>8 DAYS WITHOUT FOOD</subheading>
     </topPage>
     
-    <group num="1">
+    <div num="1">
         <bold>Death and Madness Add to Plight of Coburn's Crew.</bold>
         <image src="ny_sun_death-and-madness.png"></image>
         <para>The tale of ten living men and corpse adrift for eight days on the high seas in the thundering gale with nothing save five Bibles and three prayer books
@@ -17,7 +30,7 @@
             had opened during a blow and the seas had filled her forward hold. Capt. Pereia told his story coming up the bay from Quarantie on the yacht Amida,
             which had sighted his little twenty-five-foot yawl, after the ten men, three white and seven colored, had given up hope in everything except prayers and miracles.
             Two days in tge palatial quarters of the yacht, with warm beds, food and hot drink had put a little life back into the rescued crew.</para>
-    </group>
+    </div>
     
     <group num="2">
         <bold>One Still Abed.</bold>
@@ -82,5 +95,5 @@
             for stories of the rescue will be divided among them and they will receive the proceeds of a painting of the event by Claus Bergen,
             a marine painter who was aboard the yacht. Altgough when rescued their skin had been shriveled by 
             the salt water so that they looked 100 years old, all are reported to be a little worse for the adventure.</para>
-    </group>
+    </group></body>
 </root>

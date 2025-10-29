@@ -3,6 +3,7 @@
 
 <?xml-model href="daily-time-litz.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
+    
     <top>
         <company>THE ERIE DAILY TIMES</company>
         <title> ERIE CAPTAIN TELLS OF SEA RESCUE </title>
