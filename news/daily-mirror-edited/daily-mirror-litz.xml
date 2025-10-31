@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="daily-mirror-litz.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-  <topPage>
-    <company>DAILY MIRROR, Monday, April 29, 1929</company>
-    <title>Ten Men Adrift in Lifeboat Rescued</title>
+  <metadata>
+    <docInfo>
+      <genre>newspaper</genre>
+      <pubDate when="1929-04-29"></pubDate>
+      <author>Unknown</author>
+    </docInfo>
+    <docEncoding>
+      <editDate when="2025-10-31"></editDate>
+      <editor>Mallory Pentycofe</editor>
+    </docEncoding>
+    </metadata>
+    <body>
+    <topPage>
+    <company>DAILY MIRROR, <date when="1929-04-29">Monday, April 29, 1929</date></company>
+    <heading level="1">Ten Men Adrift in Lifeboat Rescued</heading>
   </topPage>
-
-  <group num="1">
-    <bold>Thrilling</bold>
-    <image src="ship.png"/>
-    <para> rescue 250 miles north of Bermuda was made by the yacht Amida (above) which arrived here
-      yesterday with ten of the crew of the James Coburn that foundered during a hurricane. One was
+<div>
+  <heading level="3">Thrilling</heading>
+    <image src="ship.png" alt="Image of rescued ship"/>
+    <p> rescue 250 miles north of <name type="place">Bermuda</name> was made by the yacht Amida (above) which arrived here
+      yesterday with ten of the crew of the <name type="person">James Coburn</name> that foundered during a hurricane. One was
       rushed to the hospital from Quaratine. The remaining nine are shown at right. They had gone
-      without food four days when picked up. </para>
-  </group>
-  <group num="2">
-    <bold>Rescued</bold>
-    <image src="capt.png"/>
-    <image src="rescues.png"/>
-    <para> and rescuer! Capt. Sidney McLoughlin (left above) of the yacht Amida being thanked bbt
-      Capt. Joseph Periera of the Foundered ship. </para>
+      without food four days when picked up. </p>
+</div>
+    <div>
+  <heading level="3">Rescued</heading>
+    <image src="capt.png" alt="Image of two men shaking hands"/>
+    <image src="rescues.png" alt="Image of crew that was rescued"/>
+    <p> and rescuer! <name type="person">Capt. Sidney McLoughlin</name> (left above) of the yacht <name type="boat">Amida</name> being thanked bbt
+      Capt. Joseph Periera of the Foundered ship. </p>
 
-    
-  </group>
+  </div>
+  </body>
 </root>
