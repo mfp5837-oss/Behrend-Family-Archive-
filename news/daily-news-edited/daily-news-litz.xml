@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="daily-news-litz.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <company> DAILY NEWS,</company>
-    <date> New York, Monday, April 29, 1929</date>
-
+    <metadata>
+        <docInfo>
+            <genre>newspaper</genre>
+            <pubDate when="1929-04-29"/>
+            <author>Daily Mirror</author>
+        </docInfo>
+        <docEncoding> 
+            <editDate when="2025-10-30"/>
+            <editor>Megan Litz</editor>
+        </docEncoding>
+    </metadata>
+    <body>
+     <topPage>   <company> DAILY NEWS,</company>
+         <heading level="1"> Safe After Days of Peril</heading>
+    <date when="1929-04-29"> New York, Monday, April 29, 1929</date>
+</topPage>
+      <div>  <date when="1929-04-29"> New York, Monday, April 29, 1929</date>
     <subTitle> Safe After Days of Peril</subTitle>
 
     <image src="people.png"/>
@@ -47,7 +61,7 @@
                 daughter, Harriett Natalie Mae as the craft steamed into quarantine yesterday. Both
                 rescued and rescuers reported that the men were adrift in their leaky boat during
                 one of the worst hurricanes the Atlantic has seen in years.</ln>
-        </para></left>
+        </para></left></div>
 
     <right>
         <title> The NEWS in Tabloid </title>
@@ -55,7 +69,7 @@
         <para> The story of ten men adrift eight days as a hurricane battered their open boat was
             told when the men rescued by the yacht Amidi were landed. </para>
     </right>
-
+</body>
     <!-- there is a drawing on the bottom right of the page with a bird and a cloud -->
 
 </root>

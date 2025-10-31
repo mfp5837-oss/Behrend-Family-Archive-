@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+  <metadata>
+    <docInfo>
+      <genre>newspaper</genre>
+      <pubDate when="1929-04-29"/>
+      <author>Daily Mirror</author>
+    </docInfo>
+    <docEncoding> 
+      <editDate when="2025-10-30"/>
+      <editor>Megan Litz</editor>
+    </docEncoding>
+  </metadata>
+  
+  <body>
+    <topPage>
+    <company>DAILY MIRROR, Monday, April 29, 1929</company>
+    <heading level="1">Ten Men Adrift in Lifeboat Rescued</heading>
+  </topPage>
+
+  <div>
+    <heading level="2">Thrilling</heading>
+    <image src="ship.png" alt="ship"/>
+    <p> <place>rescue 250 miles north of Bermuda was made by the yacht Amida (above) which arrived here
+      yesterday with ten of the crew of the James Coburn that foundered during a hurricane. One was
+      rushed to the hospital from Quaratine. The remaining nine are shown at right. They had gone
+      without food four days when picked up.</place> </p>
+  </div>
+    <div>
+    <heading level="2">Rescued</heading>
+    <image src="capt.png" alt="captain"/>
+    <image src="rescues.png" alt="rescues"/>
+    <p> <place>and rescuer! Capt. Sidney McLoughlin (left above) of the yacht Amida being thanked bbt
+      Capt. Joseph Periera of the Foundered ship.</place> </p>
+
+    
+  </div>
+  </body>
+</root>
