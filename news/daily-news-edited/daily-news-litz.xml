@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="daily-news-litz.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <company> DAILY NEWS,</company>
-    <date> New York, Monday, April 29, 1929</date>
-
-    <subTitle> Safe After Days of Peril</subTitle>
-
-    <image src="people.png"/>
-
-    <left><title> PERIL-WORN, 10 HURRICANE HEROES LAND</title>
-        <author> By ARTHUR MEFFORD</author>
-        <para> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
-            ten survivors of the foundered four - masted coal schooner James E. Coburn were landed
-            yesterday at Tebo basin, Brooklyn, from the shining decks of the $1,000,000 yacht Amidi.
+    <metadata>
+        <docInfo>
+            <genre>newspaper</genre>
+            <pubDate when="1929-04-29"></pubDate>
+            <author>ARTHUR MEFFORD</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-10-31"></editDate>
+            <editor>Mallory Pentycofe</editor>
+        </docEncoding>
+    </metadata>
+    <body>
+        <topPage>
+            <company>DAILY NEWS, <date when="1929-04-29">New York, Monday, April 29, 1929</date></company>
+            <heading level="1">Safe After Days of Peril</heading>
+        </topPage>
+        <div>
+      <heading level="3">PERIL-WORN, 10 HURRICAN HEROES LAND</heading>
+    <image src="people.png" alt="Caption left to right: Capt. MacLaughlin, Mr. and Mrs. E. R. Behrend, Capt. Jose Pereira, and James E. Coburn."/>
+     
+            <p> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
+            ten survivors of the foundered four - masted coal schooner <name type="person">James E. Coburn</name> were landed
+            yesterday at <name type="place">Tebo basin, Brooklyn</name>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
             Gaunt and bruised and swollen from eight days on tempestuous seas in an open boat, the
-            survivors of the Coburn had to be lifted from the palatial yacht. One Cook William
-            Sargent, who dieo in the boat while seas buffeted them, had been buried at sea. of the
-            living ten, Engineer William Milliken, carried from the Amidi to Marine hospital, at
-            Clif-ton, S. I., where he is in a serious condition from exposure. </para>
-        <subHead> Leak, Then Hurricane </subHead>
-        <para>
-            <ln num="1">Capt. Jose Pereira, the suffering engineer and Jose Madeors, owner, were the
+            survivors of the Coburn had to be lifted from the palatial yacht. One Cook <name type="person">William Sargent</name>, 
+            who dieo in the boat while seas buffeted them, had been buried at sea. of the
+            living ten, Engineer <name type="person">William Milliken</name>, carried from the <name type="boat">Amidi</name> to Marine hospital, at
+            <name type="place">Clif-ton, S. I.</name>, where he is in a serious condition from exposure. </p>
+        </div>
+        <div>
+            <heading level="3"> Leak, Then Hurricane </heading>
+            <image src="boat.png" alt="Image of the yacht Amida at Quarantine with rescused sailors"/>
+        <p>
+            <name type="person">Capt. Jose Pereira</name>, the suffering engineer and <name type="person">Jose Madeors</name>, owner, were the
                 three white men aboard the coal schooner. The skipper told a graphic tale of the
-                terrible ordeal before and after the sinking of the Coburn.</ln>
-            <ln num="2">The schooner began shipping water as soon as Cape Henry, Va., was passed in
-                the voyage from Baltimore to Bermuda with coal. There came one of the worst
+                terrible ordeal before and after the sinking of the <name type="boat">Coburn.</name>
+            The schooner began shipping water as soon as Cape Henry, Va., was passed in
+                the voyage from <name type="place">Baltimore</name> to <name type="place">Bermuda</name> with coal. There came one of the worst
                 hurricanes Pereira, who has sailed from New Bedford for thirty years, ever saw. The
                 heavily laden schooner was swamped beyond hope of pumping. Both captain and owner
-                ordered the men to the single yawl used as lifeboat.</ln>
-            <ln num="3"> With a jury-rig set, the eleven men in the boat thought they had saved
+                ordered the men to the single yawl used as lifeboat.
+             With a jury-rig set, the eleven men in the boat thought they had saved
                 themselves just in time, for the prow of the Coburn reared and the vessel settled
-                before they were 500 yards away.</ln>
-            <ln num="4">With a keg of biscuit and a keg of water, the eleven began their suffering.
-                Once they drifted within sight of the shores of Bermuda, only to be blown back.</ln>
-            <ln num="5">On April 26, without water for two days and food for four, the ten men—Cook
-                Sargent having died—sighted the Amidi, yacht built at Kiel, Germany, and making its
-                maiden voyage here for delivery to Ernest R. Behrend.</ln>
-            <ln num= "6"><image src="boat.png"/></ln>
-            <ln num="7">Capt. Sidney S. MacLaughlin from the decks of the Amidi, saw the crude
+                before they were 500 yards away.
+            With a keg of biscuit and a keg of water, the eleven began their suffering.
+                Once they drifted within sight of the shores of Bermuda, only to be blown back.
+            On April 26, without water for two days and food for four, the ten men—Cook
+                Sargent having died—sighted the <name type="boat">Amidi</name>, yacht built at Kiel, Germany, and making its
+                maiden voyage here for delivery to <name type="person">Ernest R. Behrend.</name>
+            <name type="person">Capt. Sidney S. MacLaughlin</name> from the decks of the <name type="boat">Amidi</name>, saw the crude
                 distress signal from the small boat—an American flag flown upside down from an oar.
                 The rescued men were so weak they could not lift their heads as rescuers approached.
                 Twenty members of the yacht crew were forced to cut the salt-coated clothes and sea
-                boots from the swollen limbs of the rescued. None could speak for hours.</ln>
-            <ln num="8">Behrend, owner of the yacht, with his wife, Mrs. Mary Brownell Behrend, and
-                daughter, Harriett Natalie Mae as the craft steamed into quarantine yesterday. Both
+                boots from the swollen limbs of the rescued. None could speak for hours.
+            Behrend, owner of the yacht, with his wife, <name type="person">Mrs. Mary Brownell Behrend</name>, and
+                daughter, <name type="person">Harriett Natalie Mae</name> as the craft steamed into quarantine yesterday. Both
                 rescued and rescuers reported that the men were adrift in their leaky boat during
-                one of the worst hurricanes the Atlantic has seen in years.</ln>
-        </para></left>
-
-    <right>
-        <title> The NEWS in Tabloid </title>
-        <subHead> NEW YORK AND VICINITY </subHead>
-        <para> The story of ten men adrift eight days as a hurricane battered their open boat was
-            told when the men rescued by the yacht Amidi were landed. </para>
-    </right>
-
+                one of the worst hurricanes the <name type="place">Atlantic</name> has seen in years.
+        </p>
+        </div>
+    <div>
+        <heading level="1">Tge NEWS in Tabloid</heading>
+        <heading level="2"> NEW YORK AND VICINITY </heading>
+        <p> The story of ten men adrift eight days as a hurricane battered their open boat was
+            told when the men rescued by the yacht <name type="boat">Amidi</name> were landed. </p>
+    </div>
+    </body>
     <!-- there is a drawing on the bottom right of the page with a bird and a cloud -->
 
 </root>
