@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> b5a931e900800d7f4159a4c49301cc11eefcd74c
+
 <?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <metadata>
         <docInfo>
             <genre>newspaper</genre>
-<<<<<<< HEAD
             <pubDate when="1929-04-29"></pubDate>
             <author>ARTHUR MEFFORD</author>
         </docInfo>
@@ -30,7 +27,7 @@
             <p> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
             ten survivors of the foundered four - masted coal schooner <name type="person">James E. Coburn</name> were landed
             yesterday at <name type="place">Tebo basin, Brooklyn</name>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
-=======
+                
             <pubDate when="1929-04-29"/>
             <author>Daily Mirror</author>
         </docInfo>
