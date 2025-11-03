@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 
 <?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
@@ -56,4 +57,39 @@
      An hour later and we could not have saved any men of the <name type="person">James E. Coburn.”</name></p>
 </div>
     </body>
+=======
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <docInfo>
+            <genre>newspaper</genre>
+            <pubDate when="1929-04-29"/>
+            <author>Daily News</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-10-31"/>
+            <editor>Megan Litz</editor>
+        </docEncoding>
+    </metadata>
+    <body>
+        <topPage><company>DAILY NEWS <date when="1929-04-29">Monday, April 29. 1929</date></company>
+    
+    <heading level="1"> 10 Hurricane Heroes Land</heading>
+</topPage>
+        
+    <div><heading level="2"> Chief Tells 10 Days Drift In Open Boat</heading>
+    <p> <name type="person">by Athur Mefford</name></p>
+
+    <p> <name type="event">Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane, ten survivors of the foundered four-masted coal schooner James E. Coburn were landed yesterday at Tebo Basin, Brooklyn, from the shining decks of the $1,000,000 yacht Amidí. Gaunt, bruised, and swollen from eight days on tempestuous seas in an open boat, the survivors of the Coburn had to be lifted from the palatial yacht. One, Cook William Sargent, who died in the boat while seas buffeted them, had been buried at sea. One of the living ten, Engineer William Milliken, was carried from the Amidí to Marine Hospital at Clifton, S.I., where he is in serious condition from exposure.</name></p>
+
+   <p> <name type="event"> Leak, Then Hurricane </name></p>
+    
+    <p><name type="event">Captain Jose Pereira, the suffering engineer, and Jose Maderos, the owner, were the three white men aboard the coal schooner. The skipper told a graphic tale of the terrible ordeal before and after the sinking of the Coburn. The schooner began shipping water as soon as Cape Henry, Virginia, was passed in the voyage from Baltimore to Bermuda with coal. Then came one of the worst hurricanes Pereira—who had sailed from New Bedford for thirty years—had ever seen. The heavily laden schooner was swamped beyond hope of pumping, and both captain and owner ordered the men to the single yawl used as a lifeboat. With a jury-rig set, the eleven men in the boat found they had saved themselves just in time, for the prow of the Coburn reared and the vessel settled before they were 500 yards away. With a keg of biscuit and a keg of water, the eleven began their suffering. Once they drifted within sight of the shores of Bermuda, only to be blown back. Their ordeal was doubly maddening because they thought themselves in the Bermuda lanes. On April 26, without water for two days and food for four, the ten men—Cook Sargent having died—sighted the Amidí, a yacht built at Kiel, Germany, and making its maiden voyage here for delivery to Ernest R. Behrend, paper manufacturer. Captain Sidney S. MacLaughlin, from the decks of the Amidí, saw the crude distress signal from the small boat—an American flag flown upside down from an oar. The rescued men were so weak they could not lift their heads as rescuers approached. Twenty members of the yacht crew were forced to cut the salt-coated clothes and sea boots from the swollen limbs of the rescued. None could speak for hours, although the efficient yacht’s kitchen made gallons of soup for the men.</name></p>
+
+
+    <p> <name type="boat">Yacht Delivered to Owner</name> </p>
+    
+    <p><name type="event">Behrend, owner of the yacht, with his wife, Mrs. Mary Brownell Behrend, and daughter, Harriet, boarded the Amidí from the yacht Natalie Mae as the craft steamed into quarantine yesterday. Both rescued and rescuers reported that the men were adrift in their leaky boat during one of the worst hurricanes the Atlantic has seen in years. Captain MacLaughlin said, “Only a half hour after we took the men from the filling dory, a great wave engulfed the lifeboat and took her to the bottom. An hour later and we could not have saved any men of the James E. Coburn.”</name></p></div>
+</body>
+>>>>>>> b5a931e900800d7f4159a4c49301cc11eefcd74c
 </root>

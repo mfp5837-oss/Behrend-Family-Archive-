@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<?xml-model href="daily-time-litz.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
+    <metadata>
+        <docInfo>
+            <genre>newspaper</genre>
+            <pubDate when="1929-04-29"/>
+            <author>Daily Time</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-10-31"/>
+            <editor>Megan Litz</editor>
+        </docEncoding>
+    </metadata>
+    <body>
+        <topPage>
+            <company>THE ERIE DAILY TIMES <date when="1929-04-25"> Thursday, April 25, 1929 </date></company>
+        <heading level="1"> ERIE CAPTAIN TELLS OF SEA RESCUE </heading>
+        </topPage>
+        
+       <div> 
+           <p><place>Erie, PA</place></p>
+
+        <p> <name type="event">CREW ON ERIE BOAT RESCUES 9 IN OCEAN</name> </p>
+
+        <p><place>Erie, PA</place></p>
+        <p><date when="1929-04-25"> Thursday, April 25, 1929 </date></p>
     
-    <top>
-        <company>THE ERIE DAILY TIMES</company>
-        <title> ERIE CAPTAIN TELLS OF SEA RESCUE </title>
+       </div>
+    <div>
+        <heading level="1"> BEHREND'S YACHT AIDS IN BERMUDA </heading>
 
-        <place>Erie, PA</place>
-        <date> Thursday, April 25, 1929 </date>
+        <heading level="2"> 4-Masted Schooner Foundered Near Islands</heading>
 
-        <title> CREW ON ERIE BOAT RESCUES 9 IN OCEAN </title>
+        <heading level="3"> Special to The Times </heading>
 
-        <place>Erie, PA</place>
-        <date> Thursday, April 25, 1929 </date>
-    </top>
-
-    <leftSide>
-        <title> BEHREND'S YACHT AIDS IN BERMUDA </title>
-
-        <subTitle> 4-Masted Schooner Foundered Near Islands</subTitle>
-
-        <tiny> Special to The Times </tiny>
-
-        <para>
-            <bold> New York, April 25.</bold> - Ten members of the crew of the four-masted schooner,
+        <p>
+            <name type="event"> New York, April 25.</name> - Ten members of the crew of the four-masted schooner,
             the James E. Coburn, who drifted in the Atlantic Ocean in an open lifeboat for more than
             a week after the vessel had foundered about 250 miles north of the Bermuda Islands, are
             being brought to New York aboard the Amida, private yacht of Ernst R. Behrend of Erie.
@@ -34,10 +45,10 @@
             buffeted lifeboat by the crew of the Amida, who endangered their own lives in effecting
             the rescue. An eleventh member of the crew had died from exposure a short time before
             the survivors of the ill-fated Coburn were taken aboard the Amida. He was W. Sargent,
-            the cook. </para>
+            the cook. </p>
 
-        <subTitle>RESCUED CREW</subTitle>
-        <para> The rescued crew members were Jose Pereira, master of the Coburn, Edward Price, W.
+        <p><name type="person">RESCUED CREW</name></p>
+        <p> <name type="event">The rescued crew members were Jose Pereira, master of the Coburn, Edward Price, W.
             Milliken, Eugenio Semedo, Joe Delgado, Joseph Madeiros, Manuel Silva, John Britto, Henry
             Andrews, and Ambrose Montero. Nearly the entire crew was from New Bedford,
             Massachusetts. The Amida, which was making her maiden voyage across the Atlantic after
@@ -46,10 +57,10 @@
             McLaughlin of the Amida, the rescue took place at 34.25 degrees north latitude and 64.35
             degrees west longitude. The Coburn had sailed out of Baltimore, Maryland, on April 1 for
             Port-au-Prince, Haiti. More than a week later, the ship was last seen sailing past Cape
-            Henry, and nothing was heard from it after that. </para>
+            Henry, and nothing was heard from it after that. </name></p>
 
-        <subTitle>SKIPPER'S WIRELESS</subTitle>
-        <para> McLaughlin wirelessed, according to the Marine Radio Corporation: I sighted the
+        <p><name type="person">SKIPPER'S WIRELESS</name></p>
+        <p> <name type="event">McLaughlin wirelessed, according to the Marine Radio Corporation: I sighted the
             drifting lifeboat at dawn in north latitude 34.25, west longitude 64.35, and changed my
             course to bear down upon it. I picked up the boat at 5 a.m., eastern standard time. The
             survivors were in a sorry plight. Their food was all gone, and they had had no water for
@@ -57,10 +68,10 @@
             picked them up. The Amida was built by Fried. Krupp-Germaniawerft, famous shipbuilders
             of Kiel-Gaarden, Germany, and is expected to arrive in New York Saturday afternoon. She
             is in command of Capt. McLaughlin, formerly first officer on the S.S. Reliance,
-            Hamburg-American line. </para>
+            Hamburg-American line.</name> </p>
 
-        <subTitle>OWNED BY BEHREND</subTitle>
-        <para> Ernst R. Behrend, the owner of the yacht Amida and president of the Hammermill Paper
+        <p><place>OWNED BY BEHREND</place></p>
+        <p> <name type="event">Ernst R. Behrend, the owner of the yacht Amida and president of the Hammermill Paper
             Co. of Erie, had the boat specially constructed. She is approximately 200 feet long and
             is equipped with Diesel engines. The Coburn, which was chartered by a Boston,
             Massachusetts steamship agency to carry a cargo of coal from Baltimore to Martinique,
@@ -72,21 +83,21 @@
             fifth day, the little army of survivors, practically without food or fresh water, and
             several of the men were about to give up hope of being rescued. It was stated that the
             arrival of the crew of the Amida was just in time to save the lives of most of the
-            survivors, who were suffering from hunger and exposure. </para>
-    </leftSide>
+            survivors, who were suffering from hunger and exposure. </name></p>
+    </div>
 
-    <middle>
-        <image src="lighthouse.png"/>
-    </middle>
+    <div>
+        <image src="lighthouse.png" alt="lighthouse"/>
+    </div>
 
-    <rightSide>
+    <div>
 
-        <title>YACHT IS OWNED BY BEHREND</title>
-        <subTitle>Member of Schooner James E. Coburn Saved</subTitle>
-        <author>bby United Press</author>
+        <heading level="1">YACHT IS OWNED BY BEHREND</heading>
+        <heading level="2">Member of Schooner James E. Coburn Saved</heading>
+        <p><name type="person">by United Press</name></p>
 
-        <para>
-            <bold> New York, April 25.</bold>- Nine members of the crew of the American schooner
+        <p>
+            <date when="1929-04-25"> New York, April 25.</date>- Nine members of the crew of the American schooner
             James E. Coburn have been rescued at sea in an open lifeboat by the yacht Amida, owned
             by Ernst R. Behrend of Erie, Pennsylvania. It was reported early Thursday in wireless
             messages from the Amida received by the Marine Radio Corporation. The messages said that
@@ -98,15 +109,15 @@
             gone out of the city Wednesday night on business. According to reports from the Erie
             Yacht Club, the Amida was recently built in Germany for Mr. Behrend, and it is believed
             she was making her maiden voyage across the Atlantic. The yacht is said to be 200 feet
-            long and operated by Diesel engines.</para>
+            long and operated by Diesel engines.</p>
 
-        <date>Monday, April 29, 1929</date>
-        <title>SAY SAVING OF 10 MEN ACCIDENTAL</title>
+        <p><date when="1929-04-29">Monday, April 29, 1929</date></p>
+        <p><name type="event">SAY SAVING OF 10 MEN ACCIDENTAL</name></p>
         
-        <subTitle>E.R. Behrend, Owner, Meets Yacht in New York</subTitle>
+        <p><name type="person">E.R. Behrend, Owner, Meets Yacht in New York</name></p>
         
-        <author>by united press</author>
-        <para> The story of how Ernst R. Behrend's new yacht Amida rescued ten shipwrecked sail- ors
+        <p><name type="person">by united press</name></p>
+        <p> <name type="event">The story of how Ernst R. Behrend's new yacht Amida rescued ten shipwrecked sail- ors
             of the schooner James E. Coburn, which foundered in mid-Atlantic, was told here today
             following the arrival Sunday of the pleasure craft piloted by Capt. Sydney Mc- Laughlin.
             Mr. Behrend, president of the Hammermill Paper company at Erie, Pa., met the Amida here
@@ -122,8 +133,8 @@
             McLaughlin, of the Amida, sald that the rescue was an accident. The Amida was fifteen
             miles off her regular course when she picked up the yawl, he said. He added that because
             of the tor- ture they had undergone, the rescued men had not been told they had only
-            almost missed being pick- ed up. </para>
+            almost missed being pick- ed up. </name></p>
 
-    </rightSide>
-
+    </div>
+</body>
 </root>
