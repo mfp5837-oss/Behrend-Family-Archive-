@@ -31,13 +31,15 @@ caption = attribute caption {text }
 # This is an official newspaper printed caption
 p = element p {mixed{ (name | place | date)+ } }
 name = element name {type, text }
-type = attribute type {"person" | "boat" | "object" | "event" }
+type = attribute type {"person" | "boat" | "object" | "event" | "place" | "storm"}
 place = element place {lat?, long?, text }
+weather = element weather{text}
 lat = attribute lat {xsd:decimal}
 long = attribute long {xsd:decimal}
 # lat and long are for geo-cooding
 
 when = attribute when {xsd:date}
+
 
 # Telegram Encoding
 transmitInfo = element transmitInfo {fw, mixed{(time | place | date | sender | addressee)+, fw}}

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 2f93779c64d4b1ff627005aaeea91c16ca41fd91
 <?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <metadata>
@@ -23,7 +29,36 @@
      
             <p> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
             ten survivors of the foundered four - masted coal schooner <name type="person">James E. Coburn</name> were landed
+<<<<<<< HEAD
+            yesterday at <name type="place">Tebo basin, Brooklyn</name>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
+                
+            <pubDate when="1929-04-29"/>
+            <author>Daily Mirror</author>
+        </docInfo>
+        <docEncoding> 
+            <editDate when="2025-10-30"/>
+            <editor>Megan Litz</editor>
+        </docEncoding>
+    </metadata>
+    <body>
+     <topPage>   <company> DAILY NEWS,</company>
+         <heading level="1"> Safe After Days of Peril</heading>
+    <date when="1929-04-29"> New York, Monday, April 29, 1929</date>
+</topPage>
+      <div>  <date when="1929-04-29"> New York, Monday, April 29, 1929</date>
+    <subTitle> Safe After Days of Peril</subTitle>
+
+    <image src="people.png"/>
+
+    <left><title> PERIL-WORN, 10 HURRICANE HEROES LAND</title>
+        <author> By ARTHUR MEFFORD</author>
+        <para> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
+            ten survivors of the foundered four - masted coal schooner James E. Coburn were landed
+            yesterday at Tebo basin, Brooklyn, from the shining decks of the $1,000,000 yacht Amidi.
+>>>>>>> b5a931e900800d7f4159a4c49301cc11eefcd74c
+=======
             yesterday at <place>Tebo basin, Brooklyn</place>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
+>>>>>>> 2f93779c64d4b1ff627005aaeea91c16ca41fd91
             Gaunt and bruised and swollen from eight days on tempestuous seas in an open boat, the
             survivors of the Coburn had to be lifted from the palatial yacht. One Cook <name type="person">William Sargent</name>, 
             who dieo in the boat while seas buffeted them, had been buried at sea. of the
