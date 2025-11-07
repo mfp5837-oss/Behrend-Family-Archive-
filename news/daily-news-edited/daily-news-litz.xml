@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 2f93779c64d4b1ff627005aaeea91c16ca41fd91
 <?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <metadata>
@@ -26,6 +29,7 @@
      
             <p> Twice saved from ferocious seas waiting to engulf them as sacrifices to a hurricane,
             ten survivors of the foundered four - masted coal schooner <name type="person">James E. Coburn</name> were landed
+<<<<<<< HEAD
             yesterday at <name type="place">Tebo basin, Brooklyn</name>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
                 
             <pubDate when="1929-04-29"/>
@@ -52,11 +56,14 @@
             ten survivors of the foundered four - masted coal schooner James E. Coburn were landed
             yesterday at Tebo basin, Brooklyn, from the shining decks of the $1,000,000 yacht Amidi.
 >>>>>>> b5a931e900800d7f4159a4c49301cc11eefcd74c
+=======
+            yesterday at <place>Tebo basin, Brooklyn</place>, from the shining decks of the $1,000,000 yacht <name type="boat">Amidi.</name>
+>>>>>>> 2f93779c64d4b1ff627005aaeea91c16ca41fd91
             Gaunt and bruised and swollen from eight days on tempestuous seas in an open boat, the
             survivors of the Coburn had to be lifted from the palatial yacht. One Cook <name type="person">William Sargent</name>, 
             who dieo in the boat while seas buffeted them, had been buried at sea. of the
             living ten, Engineer <name type="person">William Milliken</name>, carried from the <name type="boat">Amidi</name> to Marine hospital, at
-            <name type="place">Clif-ton, S. I.</name>, where he is in a serious condition from exposure. </p>
+            <place>Clif-ton, S. I.</place>, where he is in a serious condition from exposure. </p>
         </div>
         <div>
             <heading level="3"> Leak, Then Hurricane </heading>
@@ -66,7 +73,7 @@
                 three white men aboard the coal schooner. The skipper told a graphic tale of the
                 terrible ordeal before and after the sinking of the <name type="boat">Coburn.</name>
             The schooner began shipping water as soon as Cape Henry, Va., was passed in
-                the voyage from <name type="place">Baltimore</name> to <name type="place">Bermuda</name> with coal. There came one of the worst
+                the voyage from <place>Baltimore</place> to <place>Bermuda</place> with coal. There came one of the worst
                 hurricanes Pereira, who has sailed from New Bedford for thirty years, ever saw. The
                 heavily laden schooner was swamped beyond hope of pumping. Both captain and owner
                 ordered the men to the single yawl used as lifeboat.
@@ -86,8 +93,7 @@
             Behrend, owner of the yacht, with his wife, <name type="person">Mrs. Mary Brownell Behrend</name>, and
                 daughter, <name type="person">Harriett Natalie Mae</name> as the craft steamed into quarantine yesterday. Both
                 rescued and rescuers reported that the men were adrift in their leaky boat during
-<<<<<<< HEAD
-                one of the worst hurricanes the <name type="place">Atlantic</name> has seen in years.
+                one of the worst hurricanes the <place>Atlantic</place> has seen in years.
         </p>
         </div>
     <div>
@@ -97,18 +103,6 @@
             told when the men rescued by the yacht <name type="boat">Amidi</name> were landed. </p>
     </div>
     </body>
-=======
-                one of the worst hurricanes the Atlantic has seen in years.</ln>
-        </para></left></div>
-
-    <right>
-        <title> The NEWS in Tabloid </title>
-        <subHead> NEW YORK AND VICINITY </subHead>
-        <para> The story of ten men adrift eight days as a hurricane battered their open boat was
-            told when the men rescued by the yacht Amidi were landed. </para>
-    </right>
-</body>
->>>>>>> b5a931e900800d7f4159a4c49301cc11eefcd74c
     <!-- there is a drawing on the bottom right of the page with a bird and a cloud -->
 
 </root>
