@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-14" />
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-11-12" />
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>FOR TELEGRAMS AND CABLEGRAMS 1307-A CLASS OF SERVICE DESIRE CABLE TELEGRAM FULL RATE DAY LETTER DEFERRED MESSAGE CABLE LETTER RIGHT LETTER WEEK END LETTER NEWCOMB CARLTON PRESIDENT J. C. WILLEVER, FIRST VICE PRESIDENT NO CASH OR CHO WESTERN UNION 60 CHECK 15 RADIO TIME FILED</fw>
+                <time tod="PM">606</time>
+                <place>New York, NY</place>
+                <date when="1929-04-14">APRIL 14 1929</date>
+                <addressee>
+                    <name type="boat">YACHT AMIDA</name>
+                </addressee>
+                <fw>THE QUICKEST, SUREST AND SAFEST WAY TO SEND MONEY IS BY TELEGRAPH OR CABLE</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                NO ANSWER RECEIVED ANXIOUS ABOUT YOU PLEASE TELEGRAPH HOW THINGS ARE
+                <name type="person">BEHREND</name>
+            </p>
+        </div>
+    </body>
+</root>

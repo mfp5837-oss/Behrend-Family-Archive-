@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-03-28" />
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-11-12" />
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
+            <transmitInfo>
+                <fw>POSTAL TELEGRAPH - COMMERCIAL CABLES</fw>
+                <place>Main Office, 1017 State St, Erie, PA</place>
+                <date when="1929-03-28">MAR 28 29</date>
+                <time tod="AM">1130A</time>
+                <sender>CLARENCE H. MACKAY, PRESIDENT</sender>
+                <addressee>
+                    <name type="place">Erie, Pennsylvania</name>
+                </addressee>
+                <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>NORDDEICHRADIO</place>
+                <date when="1929-03-28">MAR 28 29</date>
+                <time tod="PM">1615</time>
+                <name type="person">BEHREND</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name>
+                ACCEPTED TODAY FOUR OCLOCK EXCELLENT PERFORMANCE
+                <name type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+        
+    </body>
+</root>
