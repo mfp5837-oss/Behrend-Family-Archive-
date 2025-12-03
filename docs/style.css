@@ -1,12 +1,13 @@
 body {
 
-    /*background:papayaWhip*/
     background: LightBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
 }
 
 div.side-by-side {
     display: flex;
+    text-align: center;
+    background-color:#d3e8e6
 }
 
 img {
