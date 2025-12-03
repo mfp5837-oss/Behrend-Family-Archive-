@@ -19,3 +19,10 @@ img {
     background-color:LightGrey;
     font-size: smaller;
 }
+
+div.people {
+    display: flex;
+    text-align: center;
+    background-color:#d3e8e6;
+    align-items: center;
+}
