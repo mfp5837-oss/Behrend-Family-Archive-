@@ -4,15 +4,15 @@
     <metadata>
         <docInfo>
             <genre>telegram</genre>
-            <pubDate when="1929-03-31" />
+            <pubDate when="1929-03-31"/>
             <author>Unknown</author>
         </docInfo>
         <docEncoding>
-            <editDate when="2025-11-12" />
+            <editDate when="2025-11-12"/>
             <editor>Tessa Daley</editor>
         </docEncoding>
     </metadata>
-    
+
     <body>
         <topPage>
             <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
@@ -28,26 +28,23 @@
                 <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
             </transmitInfo>
         </topPage>
-        
+
         <div form="message">
-            <p>
-                DEPARTURE KIEL END CANAL NOON THIRTY FIRST ARRIVE
-                <place>SOUTHAMPTON</place>
-                EVENING SECOND EVERYTHING FINE
-                <name type="person">MACLAUGHLIN</name>
+            <p> DEPARTURE KIEL END CANAL NOON THIRTY FIRST ARRIVE <place>SOUTHAMPTON</place> EVENING
+                SECOND EVERYTHING FINE <name type="person">MACLAUGHLIN</name>
             </p>
         </div>
-        
+
         <div>
-            <p>
-                THIS TELEGRAM WAS TELEPHONED TO BY A AT
-                <time tod="AM">1135</time>
+            <p> THIS TELEGRAM WAS TELEPHONED TO BY A AT <time tod="AM">1135</time>
                 <time tod="AM">845</time>
             </p>
         </div>
-        
+
         <div>
-            <p>No inquiry respecting this message can be attended to without the production of this paper. Repetitions of doubtful words should be obtained through the Company's offices and not by direct application to the sender.</p>
+            <p>No inquiry respecting this message can be attended to without the production of this
+                paper. Repetitions of doubtful words should be obtained through the Company's
+                offices and not by direct application to the sender.</p>
         </div>
     </body>
 </root>

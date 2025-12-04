@@ -4,15 +4,15 @@
     <metadata>
         <docInfo>
             <genre>telegram</genre>
-            <pubDate when="1929-03-28" />
+            <pubDate when="1929-03-28"/>
             <author>Unknown</author>
         </docInfo>
         <docEncoding>
-            <editDate when="2025-11-12" />
+            <editDate when="2025-11-12"/>
             <editor>Tessa Daley</editor>
         </docEncoding>
     </metadata>
-    
+
     <body>
         <topPage>
             <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
@@ -28,7 +28,7 @@
                 <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
             </transmitInfo>
         </topPage>
-        
+
         <div form="message">
             <p>
                 <name type="boat">YACHT AMIDA</name>
@@ -37,11 +37,10 @@
                 <time tod="PM">1615</time>
                 <name type="person">BEHREND</name>
                 <place>ERIEPA</place>
-                <name type="boat">AMIDA</name>
-                ACCEPTED TODAY FOUR OCLOCK EXCELLENT PERFORMANCE
-                <name type="person">MACLAUGHLIN</name>
+                <name type="boat">AMIDA</name> ACCEPTED TODAY FOUR OCLOCK EXCELLENT PERFORMANCE
+                    <name type="person">MACLAUGHLIN</name>
             </p>
         </div>
-        
+
     </body>
 </root>
