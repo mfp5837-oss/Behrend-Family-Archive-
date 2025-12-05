@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-14"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+        <company>WESTERN UNION</company>
+<transmitInfo>
+    <fw>FOR TELEGRAMS AND CABLEGRAMS</fw>
+    <place>NEW YORK</place>
+    <date when="1929-04-14">APR 14 1929</date>
+    <time tod="PM">1045P</time>
+    <sender>BEHREND</sender>
+    <addressee><name type="place">YACHT AMIDA</name></addressee>
+    <fw>Send the following message, subject to the terms on back hereof, which are hereby agreed to</fw> <!-- Couldn"t remember what the fw means so temporary text here -->
+</transmitInfo>
+        </topPage>
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>LONDON RADIO</place>
+                <date when="1929-04-14">APR 14 1929</date>              
+                <name type="person">BEHREND</name>
+                <place>AMIDA</place>
+                <name type="boat">AMIDA</name> THANKS FOR MESSAGE BEST WISHES SAFE VOYAGE KEEP ME INFORMED
+                BEHREND
+                <name type="person">BEHREND</name>
+            </p>
+        </div>
+
+
+</body>
+</root>
