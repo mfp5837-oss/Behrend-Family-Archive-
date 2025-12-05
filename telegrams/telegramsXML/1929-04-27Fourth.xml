@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-27"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>PATRONS ARE REQUESTED TO FAVOR THE COMPANY BY CRITICISM AND SUGGESTION CONCERNING ITS SERVICE</fw>
+                <place>Main Office, 1017 State St, Erie, PA</place>
+                <date when="1929-03-28">MAR 28 29</date>
+                <time tod="AM">6 44</time>
+                <sender>MACLAUGHLIN</sender>
+                <addressee>
+                    <name type="place">40 Broad St., (Central Cable Office). New York. N. Y.</name>
+                </addressee>
+                <fw>This is a full-tat APR Telegram or Cable gram unless its de-ferred character is in dicated by a suitable sign above or precede ing the address.</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>YACHT AMIDA</place>
+                <date when="1929-04-27">APR 27 1929</date>
+                
+                <name type="person">BEHREND</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name>PROCEEDING TEN KNOTS BADLY BATTERED SUPERFICIALLY BY GALES STOP ESTIMATE ARRIVAL NINE SUNDAY EVENING TOO LATE FOR QUARANTINE STOP GUESTS SLOWLY RECUPERATING BELIEVE ALL OUT OF DANGER 
+                <name type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+        
+    </body>
+
+</root>

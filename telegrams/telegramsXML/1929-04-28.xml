@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root><metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-28"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+</metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>PATRONS ARE REQUESTED TO FAVOR THE COMPANY BY CRITICISM AND SUGGESTION CONCERNING ITS SERVICE</fw>
+                <place>UNSURE</place> <!-- unsure of place -->
+                <date when="1929-04-28">APR 28 1929</date>
+                <time tod="AM">6 31</time>
+                <sender>MAC LAUGHLIN</sender>
+                <addressee>
+                    <name type="place">Erie, Pennsylvania</name>
+                </addressee>
+                <fw>The filing time as shown in the date line on full-rate telegrams and day letters, and the time of receipt at destination as shown on all messages, is STANDARD TIME.</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>HOTEL BARCLAY NEW YORK</place>
+                <date when="1929-04-28">APR 28 1929</date>
+                
+                <name type="person">BEHREND</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name>EXPECT ARRIVE QUARANTINE FOUR AFTERNOON HAS BROKERAGE ARRANGED IMMIGRATION INSPECTION AND BERTH TEBOS
+                <name type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+        
+    </body>
+
+</root>

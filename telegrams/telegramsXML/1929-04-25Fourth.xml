@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root><metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-25"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+</metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>  PATRONS ARE REQUESTED TO FAVOR THE COMPANY BY CRITICISM AND SUGGESTION CONCERNING ITS SERVICE</fw>
+                <place>1336 Atlantic Ave., Atlantic City, N. J.</place>
+                <date when="1929-04-25">APR 25 1929</date>
+                <time tod="PM">PM 8 08</time>
+                <sender>MACLAUGHLIN</sender>
+                <addressee>
+                    <name type="boat">BEHREND</name>
+                </addressee>
+                <fw>This is a full-rate Telegram or Cable-gram unless its de ferred character is in-dicated by a suitable sign above or preced-ing the address.</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>RCA</place>
+                <date when="1929-04-25">APR 25 1929</date>
+                
+                <name type="person">BEHREND</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name> INTERNATIONAL NEWS SERVICE ASKS FOR NAMES RESCUED CREW BEST MEANS NOTIFING FAMILIES RECOMMEND YOUR PERMISSION
+                <name type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+        
+    </body></root>
