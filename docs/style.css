@@ -1,7 +1,8 @@
 body {
 
     background: LightBlue;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+  font-family: monospace;
+
 }
 
 div.side-by-side {
@@ -25,4 +26,11 @@ div.people {
     text-align: center;
     background-color:#d3e8e6;
     align-items: center;
+}
+
+
+figcaption {
+    
+    background-color:white;
+   
 }
