@@ -29,6 +29,13 @@ div.people {
     align-items: center;
 }
 
+div.amida {
+    display: flex;
+    text-align: center;
+    background-color:#d3e8e6;
+    align-items: center;
+}
+
 
 figcaption {
     
