@@ -36,18 +36,15 @@ figcaption {
    
 }
 
-div.intro {
-    
-    text-align: center;
-   
-}
+div.intro {text-align: center; color:white}
 
-div.contain {
-    text-align: center;
-}
+div.contain {text-align: center; color:white}
 
 div.news {
     
     text-align: center;
    
 }
+
+
+
