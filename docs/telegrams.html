@@ -1,203 +1,111 @@
 <!DOCTYPE html>
+<!-- some files ended up a little mismatched or misnames. I'm in the process of fixing it - Tessa -->
 <html>
     <head>
         <title>Telegrams</title>
+      
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <style>
+     <!-- added style to this, i was scared id mess up the main css file -->  <!-- I also wanted to make the boxes a bit transparent and maybe a different color, but I couldn't get it working. Maybe something I have to put in the main css? --> <style> 
+            body {
+        background-image: url('images/seamless-texture-rough-paper-free-thumb33.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
+            
+            h1, h2 {        
+             text-align: center;}
+             
         .side-by-side {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             gap: 20px;
-        }
-
+            }
+            
+            
         .side-by-side figure {
-            transition: transform 0.3s;
-        }
-
+            transition: transform 0.3s;}
+            
         .side-by-side figure:hover {
-            transform: scale(1.1);
-        }
-
+            transform: scale(1.1);}
+            
         .side-by-side img {
             max-width: 450px;
             width: 100%;
             height: auto;
-            border-radius: 5px;
-        }
+            border-radius: 5px;}
+            
+        figure figcaption {
+            text-align: center;}
+            
     </style>
     </head>
     <body>
         <h1>Telegrams</h1>
+        <h2>Click on each image to view the XML for it!</h2>
         <nav>
-            <a href="index.html">Home</a> | 
-            <a href="about.html">News Clippings</a> | 
-            <a href="gallery.html">Gallery</a> | 
-            <a href="the_amida.html">The Amdia</a> | 
-            <a href="telegrams.html">Telegrams</a> | 
+            <a href="index.html">Home</a> |
+            <a href="about.html">News Clippings</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="the_amida.html">The Amida</a> |
+            <a href="telegrams.html">Telegrams</a> |
             <a href="https://github.com/mfp5837-oss/Behrend-Family-Archive-">Github</a>
         </nav>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-03-28.xml" target="_blank">
-                    <img src="images/telegrams/tele_1.jpeg" alt="March 28 1929"/>
-                </a>
-                <figcaption>March 28 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-03-31.xml" target="_blank">
-                    <img src="images/telegrams/tele_2.jpeg" alt="March 31 1929"/>
-                </a>
-                <figcaption>March 31 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-03-28.xml" target="_blank"><img src="images/telegrams/tele_1.jpeg" alt="March 28 1929"/></a><figcaption>March 28 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-03-31.xml" target="_blank"><img src="images/telegrams/tele_2.jpeg" alt="March 31 1929"/></a><figcaption>March 31 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-11.xml" target="_blank">
-                    <img src="images/telegrams/tele_3.jpeg" alt="April 11 1929"/>
-                </a>
-                <figcaption>April 11 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-14.xml" target="_blank">
-                    <img src="images/telegrams/tele_4.jpeg" alt="April 14 1929"/>
-                </a>
-                <figcaption>April 14 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-11.xml" target="_blank"><img src="images/telegrams/tele_3.jpeg" alt="April 11 1929"/></a><figcaption>April 11 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-14.xml" target="_blank"><img src="images/telegrams/tele_4.jpeg" alt="April 14 1929"/></a><figcaption>April 14 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-14.xml" target="_blank">
-                    <img src="images/telegrams/tele_5.jpeg" alt="April 14 1929"/>
-                </a>
-                <figcaption>April 14 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-14.xml" target="_blank">
-                    <img src="images/telegrams/tele_6.jpeg" alt="April 14 1929"/>
-                </a>
-                <figcaption>April 14 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-14Second.xml" target="_blank"><img src="images/telegrams/tele_5.jpeg" alt="April 14 1929"/></a><figcaption>April 14 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-14Third.xml" target="_blank"><img src="images/telegrams/tele_6.jpeg" alt="April 14 1929"/></a><figcaption>April 14 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-15.xml" target="_blank">
-                    <img src="images/telegrams/tele_7.jpeg" alt="April 15 1929"/>
-                </a>
-                <figcaption>April 15 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-22.xml" target="_blank">
-                    <img src="images/telegrams/tele_8.jpeg" alt="April 22 1929"/>
-                </a>
-                <figcaption>April 22 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-15.xml" target="_blank"><img src="images/telegrams/tele_7.jpeg" alt="April 15 1929"/></a><figcaption>April 15 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-22.xml" target="_blank"><img src="images/telegrams/tele_8.jpeg" alt="April 22 1929"/></a><figcaption>April 22 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-25.xml" target="_blank">
-                    <img src="images/telegrams/tele_9.jpeg" alt="April 25 1929"/>
-                </a>
-                <figcaption>April 25 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-25.xml" target="_blank">
-                    <img src="images/telegrams/tele_10.jpeg" alt="April 25 1929"/>
-                </a>
-                <figcaption>April 25 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-25.xml" target="_blank"><img src="images/telegrams/tele_9.jpeg" alt="April 25 1929"/></a><figcaption>April 25 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-25Second.xml" target="_blank"><img src="images/telegrams/tele_10.jpeg" alt="April 25 1929"/></a><figcaption>April 25 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-25.xml" target="_blank">
-                    <img src="images/telegrams/tele_11.jpeg" alt="April 25 1929"/>
-                </a>
-                <figcaption>April 25 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-25.xml" target="_blank">
-                    <img src="images/telegrams/tele_12.jpeg" alt="April 25 1929"/>
-                </a>
-                <figcaption>April 25 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-25Third.xml" target="_blank"><img src="images/telegrams/tele_11.jpeg" alt="April 25 1929"/></a><figcaption>April 25 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-25Fourth.xml" target="_blank"><img src="images/telegrams/tele_12.jpeg" alt="April 25 1929"/></a><figcaption>April 25 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-25.xml" target="_blank">
-                    <img src="images/telegrams/tele_13.jpeg" alt="April 25 1929"/>
-                </a>
-                <figcaption>April 25 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-27.xml" target="_blank">
-                    <img src="images/telegrams/tele_14.jpeg" alt="April 27 1929"/>
-                </a>
-                <figcaption>April 27 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-25Fifth.xml" target="_blank"><img src="images/telegrams/tele_13.jpeg" alt="April 25 1929"/></a><figcaption>April 25 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-27.xml" target="_blank"><img src="images/telegrams/tele_14.jpeg" alt="April 27 1929"/></a><figcaption>April 27 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-27.xml" target="_blank">
-                    <img src="images/telegrams/tele_15.jpeg" alt="April 27 1929"/>
-                </a>
-                <figcaption>April 27 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-27.xml" target="_blank">
-                    <img src="images/telegrams/tele_16.jpeg" alt="April 27 1929"/>
-                </a>
-                <figcaption>April 27 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-27Second.xml" target="_blank"><img src="images/telegrams/tele_15.jpeg" alt="April 27 1929"/></a><figcaption>April 27 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-27Third.xml" target="_blank"><img src="images/telegrams/tele_16.jpeg" alt="April 27 1929"/></a><figcaption>April 27 1929</figcaption></figure>
         </div>
         
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-27.xml" target="_blank">
-                    <img src="images/telegrams/tele_17.jpeg" alt="April 27 1929"/>
-                </a>
-                <figcaption>April 27 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-04-28.xml" target="_blank">
-                    <img src="images/telegrams/tele_18.jpeg" alt="April 28 1929"/>
-                </a>
-                <figcaption>April 28 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-27Fourth.xml" target="_blank"><img src="images/telegrams/tele_17.jpeg" alt="April 27 1929"/></a><figcaption>April 27 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-04-28.xml" target="_blank"><img src="images/telegrams/tele_18.jpeg" alt="April 28 1929"/></a><figcaption>April 28 1929</figcaption></figure>
         </div>
         
-        
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-28.xml" target="_blank">
-                    <img src="images/telegrams/tele_19.jpeg" alt="April 28 1929"/>
-                </a>
-                <figcaption>April 28 1929</figcaption>
-            </figure>
-            <figure>
-                <a href="1929-05-01.xml" target="_blank">
-                    <img src="images/telegrams/tele_20.jpeg" alt="May 1 1929"/>
-                </a>
-                <figcaption>May 1 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-28Second.xml" target="_blank"><img src="images/telegrams/tele_19.jpeg" alt="April 28 1929"/></a><figcaption>April 28 1929</figcaption></figure>
+            <figure><a href="telegramsXML/1929-05-01.xml" target="_blank"><img src="images/telegrams/tele_20.jpeg" alt="May 1 1929"/></a><figcaption>May 1 1929</figcaption></figure>
         </div>
         
-        
         <div class="side-by-side">
-            <figure>
-                <a href="1929-04-30.xml" target="_blank">
-                    <img src="images/telegrams/tele_21.jpeg" alt="April 30 1929"/>
-                </a>
-                <figcaption>April 30 1929</figcaption>
-            </figure>
+            <figure><a href="telegramsXML/1929-04-30.xml" target="_blank"><img src="images/telegrams/tele_21.jpeg" alt="April 30 1929"/></a><figcaption>April 30 1929</figcaption></figure>
         </div>
         
     </body>
