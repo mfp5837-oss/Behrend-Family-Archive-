@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-27"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>PATRONS ARE REQUESTED TO FAVOR THE COMPANY BY CRITICISM AND SUGGESTION CONCERNING ITS SERVICE</fw>
+                <place>HOTEL BARCLAY N Y</place>
+                <date when="1929-04-27">APR 27 29</date>
+                <time tod="PM">530P</time>
+                <sender>NORMAN W WILSON</sender>
+                <addressee>
+                    <name type="place">THE BARCLAY</name>
+                </addressee>
+                <fw>This is a full-rate Telegram or Cable-unless its ferred character is in dicated by a suitable sign above or preced-ing the address.</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="person">Behrend</name>
+                <place>ERIE PENN</place>
+                <date when="1929-03-28">MAR 28 29</date>
+                
+                <name type="person">BEHREND</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name> SINCERELY AND CONFIDENTLY HOPE AMIDA NOT BADLY DAMAGED HEARTIEST CONGRATULATIONS TO CAPTAIN MCLAUGHLIN AND TO YOU ALL FROM ALL OF US
+                NORMAN W WILSON
+                600P
+                <name type="person">NORMAN W WILSON</name>
+            </p>
+        </div>
+        
+    </body>
+   
+  </root>

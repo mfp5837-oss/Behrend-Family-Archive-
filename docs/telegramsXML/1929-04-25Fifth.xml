@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+
+<root><metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-25"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+</metadata>
+    
+    <!-- im not sure how to write this one to the schema because its so short compared to the others -->
+    15 fr 16 wu daymessage.
+NewYork NY April 25th-29
+Ernst R.Behrend,
+Erie, Penna.
+Sincerest congratulations upon the wonderful and heroic rescue by Captain MacLaughlin and crew of the Amida.
+Fred Klein of Mosse Incorporated....330pm
+
+</root>

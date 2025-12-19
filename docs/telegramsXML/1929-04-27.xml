@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-03-28"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-11-12"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>WESTERN UNION</company>
+            <transmitInfo>
+                <fw>PATRONS ARE REQUESTED TO FAVOR THE COMPANY BY CRITICISM AND SUGGESTION CONCERNING ITS SERVICE</fw>
+                <place>HOTEL BARCLAY N.Y.</place>
+                <date when="1929-03-28">MAR 28 29</date>
+                <time tod="AM">1130A</time>
+                <sender>YACHT AMIDA</sender>
+                <addressee>
+                    <name type="place">Erie, Pennsylvania</name>
+                </addressee>
+                <fw>This is a full-rate Telegram or Cable-gram unless its de-ferred character is in-dicated by a suitable sign above or preced-ing the address.</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>ATLANTIC CITY</place>
+                <date when="1929-04-27">APR 27 1929</date>
+                
+                <name type="person">BEHREND</name>
+                <place>HOTEL BARCLAY</place>
+                <name type="boat">AMIDA</name> BEHREND
+                HOTEL BARCLAY
+                HOVE TO SOUTHERLY GALE FORCE 10 ΤΟ 11 NO PROGRESS CANT ARRIVE BEFORE SUNDAY STOP NOON 35.18 NORTH 68.49 WEST
+                UNSIGNED
+                959A
+                <name type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+        
+    </body>
+
+</root>

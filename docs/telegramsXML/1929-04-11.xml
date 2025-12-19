@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-11"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-11-12"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+
+    <body>
+        <topPage>
+            <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
+            <transmitInfo>
+                <fw>POSTAL TELEGRAPH - COMMERCIAL CABLES</fw>
+                <sender>CLARENCE H. MACKAY, PRESIDENT</sender>
+                <place>Erie, Pennsylvania</place>
+                <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
+            </transmitInfo>
+        </topPage>
+
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>PORTESHSARADIO</place>
+                <date when="1929-04-11">APR 11 29</date>
+                <name type="person">BEHREND</name>
+                <place>ERIE, PA</place> DEPARTURE SOUTHAMPTON FOUR AFTERNOON ELEVENTH <name
+                    type="person">MACLAUGHLIN</name>
+            </p>
+        </div>
+
+     
+    </body>
+</root>

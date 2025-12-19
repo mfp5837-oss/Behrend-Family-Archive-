@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-27"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata>
+    
+    <body>
+        <topPage>
+            <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
+            <transmitInfo>
+                <fw>POSTAL TELEGRAPH - COMMERCIAL CABLES</fw>
+                <place>QUARANTINE SI  N Y</place>
+                <date when="1929-04-27">APR 27 1929</date>
+                <time tod="AM">1130A</time> <!-- couldnt find time -->
+                <sender>ROSS P ANDREWS</sender> <!-- not sure -->
+                <addressee>
+                    <name type="person">ERNEST R BEHREND</name>
+                </addressee>
+                <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
+            </transmitInfo>
+        </topPage>
+        
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>AMIDA</place>
+                <date when="1929-04-27">APR 27 1929</date>
+                
+                <name type="person">BEHREND</name>
+                <place>QUARANTINE</place>
+                <name type="boat">AMIDA</name>   
+                ALL HAIL TO OUR HERO MAY THE AMIDA SAIL THE SEAS FOR THE NEXT ONE HUNDRED YEARS CONGRATULATIONS AND BEST WISHES.
+               
+                <name type="person">ROSS P ANDREWS</name>
+            </p>
+        </div>
+   
+    </body>
+</root>

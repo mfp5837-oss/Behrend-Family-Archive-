@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Documents/DIGIT%20110/GitHub/Behrend-Family-Archive-/projectSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<root>
+    <metadata>
+        <docInfo>
+            <genre>telegram</genre>
+            <pubDate when="1929-04-15"/>
+            <author>Unknown</author>
+        </docInfo>
+        <docEncoding>
+            <editDate when="2025-12-05"/>
+            <editor>Tessa Daley</editor>
+        </docEncoding>
+    </metadata><body>
+        <topPage>
+            <company>POSTAL TELEGRAPH - COMMERCIAL CABLES</company>
+            <transmitInfo>
+                <fw>POSTAL TELEGRAPH - COMMERCIAL CABLES</fw>
+                <place>467 LEXINGTON AVE
+                    MURRAY HILL 6040-6041</place>
+                <date when="1929-04-15">APR 15 1929</date>
+                <time tod="AM">1112A</time>
+                <sender>NEW YORK</sender>
+                <addressee>
+                    <name type="place">NEW YORK</name>
+                </addressee>
+                <fw>STANDARD TIME INDICATED ON THIS MESSAGE</fw>
+            </transmitInfo>
+        </topPage>
+        <div form="message">
+            <p>
+                <name type="boat">YACHT AMIDA</name>
+                <place>DEUTSCHLAND PORTISHEADRADIO</place>
+                <date when="1929-04-15">APR 15 1929</date>
+                
+                <name type="person">BEHREND HOTEL BARCLAY</name>
+                <place>ERIEPA</place>
+                <name type="boat">AMIDA</name> PROCEEDING SEVEN KNOTS WEATHER IMPROVING.
+                <name type="person">NEWYORK</name>
+            </p>
+        </div>
+
+</body>
+</root>
